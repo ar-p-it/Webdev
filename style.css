@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Plain Light";
+    color: aliceblue;
+
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#main{
+    position: relative;
+    background-color: #111;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color:#922222;
+}
+#loader{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #0b0b0b;
+    padding: 20vh 20vw;
+}
+.line{
+    /* background-color: red; */
+    height: fit-content;
+    /* width: fit-content; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    /* justify-content: flex-start; */
+}
+
+.line h1{
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* overflow: hidden; */
+    /* line-height: 30vw; */
+
+    /* color: aliceblue; */
+}
+#line1-part1{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 2vw;
+}
+#line1-part1 h5,#line1-part1 h6{
+    font-size: 4vw;
+    font-weight: 100;
+    font-family: 'silk serif';
+
+}
+.line h2{
+    font-size: 6vw;
+    font-weight: 800;
+    animation-name: teamname;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+
+@keyframes teamname {
+    0%{
+        font-family: serif;
+        -webkit-text-stroke: 1px #fff;
+        color: #fff;
+        opacity: 1;
+    }
+    48%{
+        font-family: serif;
+        -webkit-text-stroke: 1px #fff;
+        color: #fff;
+        opacity: 0;
+
+    }
+    50%{
+        font-family: Arial;
+        color: #fff;
+        opacity: 1;
+
+    }
+    100%{
+        font-family: Arial;
+        -webkit-text-stroke: 1px #fff;
+        color: transparent;
+        opacity: 0;
+
+    }
+}
+
+
+#line1-part1 h5{
+    /* background-color: aquamarine; */
+    width: 4vw;
+    text-align: right;
+}
