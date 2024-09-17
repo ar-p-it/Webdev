@@ -36,3 +36,10 @@ t1.to("#loader",{
     duration:.5,
     delay:4
 })
+
+
+
+<div id="video-contaoiner">
+<video src="<video class="embed-responsive__item embed-responsive__video" data-lazy-image="" loop="" src="https://obys.agency/wp-content/uploads/2022/11/Obys-Showreel-2022.mp4" data-loaded="true" style="visibility: inherit; opacity: 1;"></video>"></video>
+</div>
+

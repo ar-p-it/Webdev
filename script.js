@@ -50,17 +50,42 @@ t1.to("#loader",{
     display:"none"
 })
 
+t1.from("#navbar",{
+    opacity:0,
+    y:-100,
+    stagger:.4
+})
+
+
+
+
+t1.from(".hero1 h1,.hero2 h1,.hero3 h2,.hero4 h1",{
+    y:120,
+    stagger:0.2
+})
+
+
+
+
+
+
+}
+
+
+
+function cursoranimation(){
+    document.addEventListener("mousemove",function(dets){
+        gsap.to("#cursor",{
+            left:dets.x,
+            top:dets.y
+        })
+        })
+        
+        Shery.makeMagnet("#nav-part2 h4",{});
+        //     ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+        //     duration: 1,
+        //   });
+        
 }
 loadingfirst();
-
-document.addEventListener("mousemove",function(dets){
-gsap.to("#cursor",{
-    left:dets.x,
-    top:dets.y
-})
-})
-
-Shery.makeMagnet("#nav-part2 h4",{});
-//     ease: "cubic-bezier(0.23, 1, 0.320, 1)",
-//     duration: 1,
-//   });
+cursoranimation();
