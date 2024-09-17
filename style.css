@@ -10,6 +10,17 @@ html,body{
 height: 100%;
 width: 100%;
 }
+#cursor{
+    height: 5vw;
+    width: 5vw;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    border: 1px solid;
+    position: fixed;
+    /* font-weight: 100; */
+    z-index: 9999;
+    mix-blend-mode: difference;transform: translate(-50%,-50%);
+}
 #main{
     position: relative;
     background-color: #111;
@@ -102,4 +113,51 @@ width: 100%;
     /* background-color: aquamarine; */
     width: 4vw;
     text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page1 #navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 4vw;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 4vw;
+}
+#nav-part2 h4{
+    font-size: 2.4vw;
+    font-weight: 600;
+}
+#hero{
+    background-color: rgb(29, 69, 103);
+    width: 70%;
+    margin-left: 25%;
+
+}
+#hero:nth-child(2){
+    margin-top: 15vh;
+}
+#hero h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+    line-height: 7vw;
+    font-weight: 500;
 }
