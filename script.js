@@ -88,4 +88,4 @@ function cursoranimation(){
         
 }
 loadingfirst();
-cursoranimation();
+// cursoranimation();
