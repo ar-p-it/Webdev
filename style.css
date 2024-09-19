@@ -238,7 +238,73 @@ font-weight: 500;
     width: 100%;
     background-color: #922222;
     position: relative;
+    /* padding: 17vh 2vh; */
 }
+#page3 h1{
+    padding-top: 2vw;
+    padding-left: 2vw;
+    margin-left: 20vw;
+    font-size: 7vw;
+    text-transform: uppercase;
+    position: relative;   
+    /* padding: 5vw; */
+}
+
+#page3 h1::before{
+    content:"03";
+    position: absolute;
+    font-size: 5vw;
+    font-family: "silk serif";
+    left: -16%;
+    top:1.5%;
+    font-weight: 200;
+}
+#page3 .underline{
+    height: 2px;
+    width: 48%;
+    background-color: #e1e5ed;
+    margin-left: 10vw;
+    /* padding-left: 10vw; */
+    /* padding: 5vw 0; */
+    /* background-color: #fff; */
+    /* margin: 5vw 0; */
+}
+
+#page3 h1::before{
+    content:"02";
+    position: absolute;
+    font-size: 5vw;
+    font-family: "silk serif";
+    left: -16%;
+    top:1.5%;
+    font-weight: 200;
+}
+
+
+#image-div-container{
+    padding: 2vw;
+    position: relative;
+    background-color: red;
+
+}
+.image-div{
+    height: 33vw;
+    width: 24vw;
+    background-color: #3F7DF4;
+    position: relative;
+}
+
+.image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* overflow: hidden; */
+}
+
+
+
+
 
 
 
@@ -450,4 +516,8 @@ color: transparent;
 
 #footer>h5{
     font-weight: 500;
+}
+._canvas_container{
+    z-index: 9999999 !important;
+    pointer-events: none;
 }

@@ -1,3 +1,4 @@
+
 function loadingfirst(){
 
 var t1=gsap.timeline()
@@ -89,3 +90,11 @@ function cursoranimation(){
 }
 loadingfirst();
 // cursoranimation();
+function animation1(){
+    Shery.imageEffect(".img-div", {
+        style: 1 /*OR 5 for different variant */,
+        debug: true,
+        gooey:true,
+      });
+}
+animation1();
