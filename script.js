@@ -5,7 +5,7 @@ var t1=gsap.timeline()
 t1.from(".line h1",{
     y:-150,
     stagger:.4,
-    duration:1.8,
+    duration:.8,
     delay:.5 
 })
 
@@ -91,8 +91,8 @@ function cursoranimation(){
 loadingfirst();
 // cursoranimation();
 function animation1(){
-    Shery.imageEffect(".img-div", {
-        style: 1 /*OR 5 for different variant */,
+    Shery.imageEffect(".image-div",{
+        style: 5 ,
         debug: true,
         gooey:true,
       });
